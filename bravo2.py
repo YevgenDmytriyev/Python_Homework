@@ -53,7 +53,7 @@ def check_leap_year():
     time_until_next_leap_year = datetime.datetime(next_leap_year, 1, 1) - datetime.datetime.now()
     print("Time until next leap year:", time_until_next_leap_year)
 
-# Task 5: Output timedelta object with options.
+# Task 5: Output timedelta object with options .
 def output_timedelta():
     time_delta = datetime.timedelta(days=5, hours=3, minutes=15)
     choices = {
